@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-27T18:38:32Z" name="Suite1" finished-at="2022-11-27T18:38:48Z" duration-ms="15694">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.google.runners.TestRunner@10a9d961]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-27T18:38:32Z" name="Nopackage" finished-at="2022-11-27T18:38:48Z" duration-ms="15694">
+      <class name="com.google.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.google.runners.TestRunner@10a9d961]" started-at="2022-11-27T18:38:32Z" name="setUpClass" finished-at="2022-11-27T18:38:33Z" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67eec8e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.google.runners.TestRunner@10a9d961]" started-at="2022-11-27T18:38:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T18:38:38Z" duration-ms="5363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["searching products in google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["searching products"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.google.runners.TestRunner@10a9d961]" started-at="2022-11-27T18:38:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T18:38:42Z" duration-ms="3521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["searching products in google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["searching products"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.google.runners.TestRunner@10a9d961]" started-at="2022-11-27T18:38:42Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-27T18:38:48Z" duration-ms="6436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["searching products in google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["searching products"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.google.runners.TestRunner@10a9d961]" started-at="2022-11-27T18:38:48Z" name="tearDownClass" finished-at="2022-11-27T18:38:48Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.google.runners.TestRunner -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
